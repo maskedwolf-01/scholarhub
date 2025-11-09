@@ -1,8 +1,11 @@
 export default function Home() {
   return (
-    <div>
-      <h1>Welcome to ScholarHub — FUOYE Faculty of Computing Portal</h1>
-      <p>Deployment successful!</p>
+    <div style={{ textAlign: 'center', marginTop: '50px' }}>
+      <h1>Welcome to ScholarHub</h1>
+      <p>FUOYE Faculty of Computing Portal</p>
+      <p>
+        <a href="/login">Login</a> | <a href="/signup">Signup</a>
+      </p>
     </div>
   );
 }
